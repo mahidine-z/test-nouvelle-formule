@@ -40,6 +40,9 @@ li {
 
 /* header*/
 
+
+
+
 header nav {
     width: 40%;
 }
@@ -110,33 +113,138 @@ h1 {
 
 .images {}
 
-.nosservices {
+/*.nosservices {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 
-.nosservices div{
+.nosservices div {
     width: 30%;
-}
+}*/
 
-.reconstitution{
-width: 45vh ;
-height: 35vh;
-background-image: url("/assets/reconstitution.jpg") ;
-border-radius: 15px;
-align-items: center;
-display: flex;
-justify-content: center;
 
-}
 
-.nosservices div img{
+/*.nosservices div img {
     width: 100%;
-    object-fit: covers;
-}
+    object-fit: covers;*/
 
-h2{
-    z-index: 1 ;
+h2 {
+    z-index: 1;
     text-align: center;
 }
+
+/*.location {
+    width: 45vh;
+    height: 35vh;
+    background-image: url("/assets/location.jpg");
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}*/
+/*.reconstitution {
+    width: 45vh;
+    height: 35vh;
+    background-image: url("/assets/reconstitution.jpg");
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}*/
+
+/*SECTION SERVICES*/
+
+.containerservices div{
+   /* background-color: red;*/
+    width: 60%;
+    margin-left: 80px;
+    gap: 32px;
+}
+ 
+.containerservices aside{
+    background-color: white;
+    
+    
+}
+
+.width70{
+    width: 75%;
+}
+
+/*.width30{
+    width:25%;
+}*/
+
+.containerservices img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.card{
+    position: relative;
+    display: block;
+    color: white;
+    border-radius: 23px;
+}
+
+.card img{
+    border-radius: 23px;
+}
+
+
+
+.card h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sticky{
+    position: sticky;
+    top: 80px;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+section{
+    margin-bottom: 100px;
+}
+
+.filigrane{
+    position: fixed;
+    top: 192px;
+    left: 0px;
+    z-index: -1;
+}
+
+.black{
+    color: black;
+}
+
+.témoignage{
+    background-color: #B9625D;
+}
+
+.sièclespassés{
+    width: 45%;
+}
+
+.couleurnosservices{
+    color: #B9625D;
+}
+
+.couleurtext{
+    color: white;
+}
+
